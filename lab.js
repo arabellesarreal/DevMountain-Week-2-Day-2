@@ -370,7 +370,7 @@ console.log(info)
 //Print helensInfo to see what it looks like, there should be no repeating properties.
 
 
-//////////////////////////// PROBLEM 16 ////////////////////////////
+//////////////////////////// PROBLEM 16 //////////////////////////// Done
 
 /*
   Create a class called Vehicle. Make sure to call your constructor, 
@@ -474,6 +474,9 @@ class Boat extends Vehicle{
 
 //Code Here
 let myFirstBoat = new Boat(11,"red", 44, "boat name", "boat Type", false)
+
+car2 = new Vehicle(55, "blue")
+console.log(car2)
 
 /*
   Call the checkSeaworthiness method on your new boat
